@@ -1,20 +1,25 @@
 # ENEL320-Assignment2
-<p>Author : Ben Mangin(bma191), Daegan Rose-Love(dnrl17)</p>
+<p>Author : Ben Mangin(bma191), Daegan Rose-Love(dnrl17), Oliver Stuitje(ost21), Trent Kamper(tka77)</p>
 
 <h2> Q1 </h2>
 
 ![Question 1](/Images/Q1.png)
 
 <h3> a) </h3>
-<p>The image below shows the signal and its fourier transform. The siganl is made up of the following functions. 
+<p>The image below shows the signal and its Fourier transform. The signal is made up of the following functions:
+</p>
 
-        x = 30*sin(2*pi*5*t)
-        x = 50*sin(2*pi*20*t)
-        x = 10*sin(2*pi*30*t)</p>
+$$
+\begin{align}
+x = 30sin(10\pi t)\\
+x = 50sin(40\pi t)\\
+x = 10sin(60\pi t)
+\end{align}
+$$
 
 
 ![DFT sample rate of 100](/Images/DFT%20sr=200.png)
-<p>The following image shows the same signal but the fourier transform only shows one period of. This was done by only useing half of the values that come out of the DFT </p>
+<p>The following image shows the same signal, but the Fourier transform only displays one period. This was achieved by using only half of the values obtained from the DFT.</p>
 
 ![DFT sample rate of 100](/Images/DFT%20sr=200%20one%20period.png) 
 
@@ -23,6 +28,6 @@
 ![DFT sample rate of 100](/Images/Complexity%20graph%20FFT%20VS%20DFT.png)
 
 <h3> c) </h3>
-<p>The plot that we get relates to the complexity of the mathfunction. DFT has a big o commplexity of O(N^2) and the FFT has a complexity of O(Nlog(N)). This means when there is a high number of samples the FFT will be Tractable where as the DFT will most likly not be. 
+<p>The plot that we obtain relates to the complexity of the mathematical function. The DFT has a big O complexity of O(N^2), while the FFT has a complexity of O(Nlog(N)). This means that when there are a high number of samples, the FFT will be tractable, whereas the DFT will most likely not be.
 
-Anohter interesting feature in the DFT is there is a increasing variablility in the time taken. this could be explained factors not relating to the code like variablility in the speed of a computer.</p>
+Another interesting feature of the DFT is the increasing variability in the time taken. This could be explained by factors not related to the code, such as variability in the speed of a computer.</p>
