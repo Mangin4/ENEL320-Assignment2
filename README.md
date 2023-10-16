@@ -7,6 +7,7 @@
 
 ![DFT sample rate of 100](/Images/DFT%20sr=200.png)
 <p> </p>
+
 ![DFT sample rate of 100](/Images/DFT%20sr=200%20one%20period.png) 
 
 <h3> b) </h3>
