@@ -56,6 +56,9 @@ Another interesting feature of the DFT is the increasing variability in the time
 
 <p> to deblur the image a weiner filter was used. To calibrate the LEN and THETA variables of the PSF, an iterative approach was applied. a variable i was declared, each iteration to deblur the image would start with LEN = 20 (arbitruarily chosen) then create an image, plot it, then add 1 to i.
 After each iteration, i would be added to the current value of LEN. Using this technique, the different images could be observed and whichever was chosen to give the highest quality was used for further calibration. This same system was used to calibrate THETA, and the noise factor of the image.
-The final values were found to be as follows: LEN = 46.3, THETA = 20, noise factor = 0.01
+The final values were found to be as follows: LEN = 46.3, THETA = 20, noise factor = 0.01.
+
+While this is not necessarilly as optimized as it could be, and there is some ambiguity, it is sufficient to deduce that the number plate of the car is "N449 JJ8". This deblurred image could be used in conjunciton with another tools such as carjam to deduce the history of the vehicle, criminal investigation units also possess much more sofisticated databases
+to retrieve more information about the car.
 
 
