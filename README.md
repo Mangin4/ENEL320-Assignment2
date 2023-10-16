@@ -31,3 +31,20 @@ $$
 <p>The plot that we obtain relates to the complexity of the mathematical function. The DFT has a big O complexity of O(N^2), while the FFT has a complexity of O(Nlog(N)). This means that when there are a high number of samples, the FFT will be tractable, whereas the DFT will most likely not be.
 
 Another interesting feature of the DFT is the increasing variability in the time taken. This could be explained by factors not related to the code, such as variability in the speed of a computer.</p>
+
+<h3>Q2</h3>
+
+![Question 2](/Images/Q2.png)
+
+<h3> a) </h3>
+
+<h3> b) </h3>
+
+<h3> c) </h3>
+
+<h3> d) </h3>
+
+<h3>Q3</h3>
+
+![Question 3](/Images/Q3.png)
+

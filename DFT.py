@@ -2,9 +2,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 import time
 
+#function for the DFT
 def DFT(x):
-    N = len(x)
-    n = np.arange(N)
+    N = len(x)          #samples
+    n = np.arange(N)    #range for sumation
     k = n.reshape((N, 1))
     e = np.exp((-2j*np.pi*k*n)/N)
     return np.dot(x, e)
