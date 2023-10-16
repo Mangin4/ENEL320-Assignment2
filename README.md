@@ -46,5 +46,11 @@ Another interesting feature of the DFT is the increasing variability in the time
 
 <h3>Q3</h3>
 
-![Question 3](/Images/Q3.png)
+![Question 3 - image before deblurring](/Images/Q3.png)
+
+![Image after deblurring](/Images/Deblurred-image.png)
+<p> to deblur the image a weiner filter was used. To calibrate the LEN and THETA variables of the PSF, an iterative approach was applied. a variable i was declared, each iteration to deblur the image would start with LEN = 20 (arbitruarily chosen) then create an image, plot it, then add 1 to i.
+After each iteration, i would be added to the current value of LEN. Using this technique, the different images could be observed and whichever was chosen to give the highest quality was used for further calibration. This same system was used to calibrate THETA, and the noise factor of the image.
+The final values were found to be as follows: LEN = 46.3, THETA = 20, noise factor = 0.01
+
 
