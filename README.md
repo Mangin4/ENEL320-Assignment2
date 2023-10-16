@@ -21,3 +21,8 @@
 <h3> b) </h3>
 
 ![DFT sample rate of 100](/Images/Complexity%20graph%20FFT%20VS%20DFT.png)
+
+<h3> c) </h3>
+<p>The plot that we get relates to the complexity of the mathfunction. DFT has a big o commplexity of O(N^2) and the FFT has a complexity of O(Nlog(N)). This means when there is a high number of samples the FFT will be Tractable where as the DFT will most likly not be. 
+
+Anohter interesting feature in the DFT is there is a increasing variablility in the time taken. this could be explained factors not relating to the code like variablility in the speed of a computer.</p>
