@@ -5,10 +5,10 @@
 
 <h3> a) </h3>
 
-![DFT sample rate of 100](/Images/DFT sr=100.png)
-
-![DFT sample rate of 100](/Images/DFT sr=100 one period.png)
+![DFT sample rate of 100](/Images/DFT%20sr=200.png)
+<p> </p>
+![DFT sample rate of 100](/Images/DFT%20sr=200%20one%20period.png) 
 
 <h3> b) </h3>
 
-![DFT sample rate of 100](/Images/Complexity graph FFT VS DFT)
+![DFT sample rate of 100](/Images/Complexity%20graph%20FFT%20VS%20DFT.png)
