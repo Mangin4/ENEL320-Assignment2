@@ -38,6 +38,11 @@ Another interesting feature of the DFT is the increasing variability in the time
 
 <h3> a) </h3>
 
+![Real World Signal](/Images/Model_of_Pulse_Doppler_Radar_Waveform.png)
+
+<p> </p>
+
+
 <h3> b) </h3>
 
 <h3> c) </h3>
