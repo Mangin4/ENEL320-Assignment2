@@ -71,4 +71,4 @@ While this is not necessarilly an optimized and efficient process (as well as so
 
 ![Image after deblurring](/Images/Deblurred-image.png)
 
-![Image after Deblurring: T=19, L=42, NSR=0.005](/deblur_car_2.png)
+![Image after Deblurring: T=19, L=42, NSR=0.005](/deblur_car_2.PNG)
