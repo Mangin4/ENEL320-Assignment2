@@ -59,15 +59,20 @@ Another interesting feature of the DFT is the increasing variability in the time
 
 ![Question 3 - image before deblurring](/Images/Q3.png)
 
-<h3> Image after deblurring </h3>
+<p> 
+As this image has some motion blur, a Wiener filter was thought to be applied to attempt to 'deblur' the image. A Wiener filter depends on a specificed vector length (LEN), angle (THETA) and NSR (Noise to Signal Ratio). Using an arbitrary guess and check method, the image was plotted for a range of these variables until a number plate could be assertained. Two different images were arrived at that could be cross compared to assertain a number plate reading.
+</p>
+
+<h3> Wiener Point Spread Function </h3>
+
+![Point Spread Function (Kernel Matrix) of filter](/Images/Matrix.PNG)
+
+<p>
+While this is not necessarilly an optimized and efficient process (as well as some ambiguity within the output) it is sufficient to deduce that the number plate of the car is "N449 JJ8". This deblurred image could be used in conjunction with other tools such as carjam to deduce the history of the vehicle, criminal investigation units also possess much more sofisticated databases to retrieve more information about the car.
+</p>
+
+<h3> Images after deblurring with Wiener Kernel </h3>
 
 ![Image after deblurring](/Images/Deblurred-image.png)
 
-<p> to deblur the image a weiner filter was used. To calibrate the LEN and THETA variables of the PSF, an iterative approach was applied. a variable i was declared, each iteration to deblur the image would start with LEN = 20 (arbitruarily chosen) then create an image, plot it, then add 1 to i.
-After each iteration, i would be added to the current value of LEN. Using this technique, the different images could be observed and whichever was chosen to give the highest quality was used for further calibration. This same system was used to calibrate THETA, and the noise factor of the image.
-The final values were found to be as follows: LEN = 46.3, THETA = 20, noise factor = 0.01.
-
-While this is not necessarilly as optimized as it could be, and there is some ambiguity, it is sufficient to deduce that the number plate of the car is "N449 JJ8". This deblurred image could be used in conjunction with other tools such as carjam to deduce the history of the vehicle, criminal investigation units also possess much more sofisticated databases
-to retrieve more information about the car.
-
-
+![Image after Deblurring: T=19, L=42, NSR=0.005](/deblur_car_2.PNG)
