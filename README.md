@@ -52,9 +52,12 @@ Another interesting feature of the DFT is the increasing variability in the time
 
 <h3> c) </h3>
 
+<p> The spectrogram of the signal is plotted below using the matplotlib.pyplot.specgram function. </p>
+
 ![Doppler Spectrogram](/Images/Doppler_specgram.png)
 
 <h3> d) </h3>
+<p>The spectrogram does not show obvious periodicty or patterns. What may be a noticeable pattern however, are the low intensity (dark blue/purple) lines that are horizontal on the left side that occur at varying frequencies. This could be periodic harmonics of the signal which would agree with the statement made in (a). </p>
 
 <h2> Q3 </h2>
 
