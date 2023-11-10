@@ -45,7 +45,11 @@ Another interesting feature of the DFT is the increasing variability in the time
 
 <h3> b) </h3>
 
+![Doppler Mag and Phase](/Images/Doppler_Mag_and_Phase.png)
+
 <h3> c) </h3>
+
+![Doppler Spectrogram](/Images/Doppler_specgram.png)
 
 <h3> d) </h3>
 
