@@ -38,12 +38,15 @@ Another interesting feature of the DFT is the increasing variability in the time
 
 <h3> a) </h3>
 
+<p>The real-world signal chosen is the Doppler pulse waveform. The ideal model of this signal is the product of a sine wave and square wave, both of which are periodic. The image below shows various plots of the signal. </p>
+
 ![Real World Signal](/Images/Model_of_Pulse_Doppler_Radar_Waveform.png)
 
-<p> </p>
+
 
 
 <h3> b) </h3>
+<p> The plots below show the magnitude and phase spectrums for the signal. The magnitude spectrum differs from the one above as it is normalized using the fftshift function to centre the plots. The phase spectrum shows a straight line which is due to the +1 DC offset of the square wave to avoid negative magnitudes. </p>
 
 ![Doppler Mag and Phase](/Images/Doppler_Mag_and_Phase.png)
 
